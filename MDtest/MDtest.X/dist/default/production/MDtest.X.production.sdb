@@ -1,0 +1,264 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"4 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/AD_converter.c
+[v _ad_init ad_init `(v  1 e 1 0 ]
+"10 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Interrput.c
+[v _function function `II(v  1 e 1 0 ]
+"11 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Interrupt_Timer0.c
+[v _Timer0_Interrupt Timer0_Interrupt `(v  1 e 1 0 ]
+"39 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/main.c
+[v _main main `(v  1 e 1 0 ]
+"11 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Motor_Control.c
+[v _FirstInit FirstInit `(v  1 e 1 0 ]
+"24
+[v _PWMInit PWMInit `(v  1 e 1 0 ]
+"39
+[v _PWMConfig PWMConfig `(v  1 e 1 0 ]
+"161 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/skI2C.c
+[v _I2C_IdleCheck I2C_IdleCheck `(v  1 e 1 0 ]
+"171
+[v _InitI2C_Slave InitI2C_Slave `(v  1 e 1 0 ]
+"194
+[v _Slave_Interrupt Slave_Interrupt `(v  1 e 1 0 ]
+"45 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/UART.c
+[v _UART_Interrupt UART_Interrupt `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"23 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/skI2C.c
+[v _rcv_flg rcv_flg `ui  1 e 2 0 ]
+"24
+[v _Sdtp Sdtp `*.4uc  1 e 1 0 ]
+"25
+[v _Rdtp Rdtp `*.4uc  1 e 1 0 ]
+"27
+[v _AckCheck AckCheck `i  1 e 2 0 ]
+"28
+[v _success success `i  1 e 2 0 ]
+"26 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/skI2C.h
+[v _rcv_data rcv_data `[8]uc  1 e 8 0 ]
+"27
+[v _snd_data snd_data `[8]uc  1 e 8 0 ]
+"10 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/UART.h
+[v _RCV_Buff RCV_Buff `uc  1 e 1 0 ]
+"11
+[v _UART_data UART_data `uc  1 e 1 0 ]
+"412 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f1938.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"473
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"534
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"777
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1006
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1025
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1193
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1254
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1315
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1558
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+"1805
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1943
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1962
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1981
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"2069
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2343
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2399
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+"3008
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3065
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3308
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3327
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3357
+[v _SPBRG SPBRG `VEuc  1 e 1 @411 ]
+"3442
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"3503
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3704
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3723
+[v _SSPADD SSPADD `VEuc  1 e 1 @530 ]
+"3742
+[v _SSPMSK SSPMSK `VEuc  1 e 1 @531 ]
+"3761
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @532 ]
+[s S189 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"3778
+[u S198 . 1 `S189 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES198  1 e 1 @532 ]
+"3822
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @533 ]
+[s S210 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3844
+[u S219 . 1 `S210 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES219  1 e 1 @533 ]
+"3943
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @534 ]
+[s S165 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3960
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES174  1 e 1 @534 ]
+"4071
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"4109
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"4372
+[v _PSTR1CON PSTR1CON `VEuc  1 e 1 @662 ]
+"4765
+[v _CCPTMRS0 CCPTMRS0 `VEuc  1 e 1 @670 ]
+"6985
+[v _ADDEN ADDEN `VEb  1 e 0 @3307 ]
+"7033
+[v _BCLIE BCLIE `VEb  1 e 0 @1171 ]
+"7035
+[v _BCLIF BCLIF `VEb  1 e 0 @147 ]
+"7343
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7347
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
+"7427
+[v _LATA3 LATA3 `VEb  1 e 0 @2147 ]
+"7429
+[v _LATA4 LATA4 `VEb  1 e 0 @2148 ]
+"7599
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"7653
+[v _RB0 RB0 `VEb  1 e 0 @104 ]
+"7655
+[v _RB1 RB1 `VEb  1 e 0 @105 ]
+"7657
+[v _RB2 RB2 `VEb  1 e 0 @106 ]
+"7661
+[v _RB4 RB4 `VEb  1 e 0 @108 ]
+"7673
+[v _RC2 RC2 `VEb  1 e 0 @114 ]
+"7689
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"7691
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"7929
+[v _SSPIE SSPIE `VEb  1 e 0 @1163 ]
+"7931
+[v _SSPIF SSPIF `VEb  1 e 0 @139 ]
+"8057
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"8059
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"8169
+[v _TXEN TXEN `VEb  1 e 0 @3317 ]
+"8173
+[v _TXIF TXIF `VEb  1 e 0 @140 ]
+"39 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+[v main@speed speed `uc  1 a 1 3 ]
+"47
+[v main@cnt cnt `uc  1 a 1 2 ]
+"83
+} 0
+"4 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/AD_converter.c
+[v _ad_init ad_init `(v  1 e 1 0 ]
+{
+"6
+[v ad_init@AN_B AN_B `uc  1 a 1 5 ]
+[v ad_init@AN_A AN_A `uc  1 a 1 4 ]
+"19
+} 0
+"24 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Motor_Control.c
+[v _PWMInit PWMInit `(v  1 e 1 0 ]
+{
+"37
+} 0
+"39
+[v _PWMConfig PWMConfig `(v  1 e 1 0 ]
+{
+[v PWMConfig@turn turn `uc  1 a 1 wreg ]
+[v PWMConfig@turn turn `uc  1 a 1 wreg ]
+[v PWMConfig@pwm pwm `uc  1 p 1 3 ]
+"50
+[v PWMConfig@turn turn `uc  1 a 1 4 ]
+"85
+} 0
+"171 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/skI2C.c
+[v _InitI2C_Slave InitI2C_Slave `(v  1 e 1 0 ]
+{
+[v InitI2C_Slave@address address `i  1 p 2 3 ]
+"187
+} 0
+"11 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Motor_Control.c
+[v _FirstInit FirstInit `(v  1 e 1 0 ]
+{
+"22
+} 0
+"10 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Interrput.c
+[v _function function `II(v  1 e 1 0 ]
+{
+"15
+} 0
+"45 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/UART.c
+[v _UART_Interrupt UART_Interrupt `(v  1 e 1 0 ]
+{
+"55
+} 0
+"11 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/Interrupt_Timer0.c
+[v _Timer0_Interrupt Timer0_Interrupt `(v  1 e 1 0 ]
+{
+"17
+} 0
+"194 C:\Users\Kumi\GoogleDrive\RBKN\Program\PIC\16F1938\DEMObot\MDtest/skI2C.c
+[v _Slave_Interrupt Slave_Interrupt `(v  1 e 1 0 ]
+{
+"196
+[v Slave_Interrupt@x x `uc  1 a 1 1 ]
+"247
+} 0
