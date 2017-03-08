@@ -7,10 +7,17 @@
 #ifndef MOTOR_CONTROL_H
 #define MOTOR_CONTROL_H
 
+#define IN_PWM      RC2
+#define IN_A        RB2
+#define IN_B        RB1
+#define EN          RB4
+#define CS           
+#define CS_RESO     130
+
 void FirstInit(void);
 void PWMConfig(char turn,char pwm);
 void PWMInit(void);
-
+char Get_CS(void);
 
 /****************************************************************************************************************************************************
 

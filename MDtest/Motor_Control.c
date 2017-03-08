@@ -49,38 +49,37 @@ void PWMConfig(char turn,char pwm)
 
 	if(turn==0x03){
 //		CCP1CON = 0b00001100;
-		RC2 = 0;//a
-		RB2 = 0;//b
-		RB1 = 0;//c
-		RB4 = 0;//d
-		RC2 = 0;//a
-		RB0 = 1;//b
-		RB1 = 1;//c
-		RB4 = 0;//d
+		IN_PWM  = 0;
+		IN_A    = 0;
+		IN_B    = 0;
+		EN      = 0;
+		IN_PWM  = 0;
+		IN_A    = 1;
+		IN_B    = 1;
+		EN      = 0;
 		CCPR1L = 0x00;
 	}
 	else if(turn==0x01){
 //        CCP1CON = 0b00001100;
-        RC2 = 0;//a
-		RB0 = 1;//b
-		RB1 = 0;//c
-		RB4 = 1;//d        
+        IN_PWM  = 0;//a
+		IN_A    = 1;//b
+		IN_B    = 0;//c
+		EN      = 1;//d        
 		CCPR1L = pwm;
 	}
 	else if(turn==0x02){
-        RC2 = 0;//a
-		RB0 = 0;//b
-		RB1 = 1;//c
-		RB4 = 1;//d        
+        IN_PWM  = 0;//a
+		IN_A    = 0;//b
+		IN_B    = 1;//c
+		EN      = 1;//d        
 		CCPR1L = pwm;
 	}
 	else{
 //		CCP1CON = 0b00001100;
-		RC2 = 0;//a
-		RB0 = 0;//b
-		RB1 = 0;//c
-		RB4 = 0;//d
+		IN_PWM  = 0;//a
+		IN_A    = 0;//b
+		IN_B    = 0;//c
+		EN      = 0;//d
 		CCPR1L = 0x00;
 	}
 }
-
