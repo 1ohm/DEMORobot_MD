@@ -83,3 +83,6 @@ void PWMConfig(char turn,char pwm)
 		CCPR1L = 0x00;
 	}
 }
+
+char Get_CS (void){
+}
